@@ -83,6 +83,7 @@ class SystemPromptBuilder @Inject constructor(
             }
 
             if (activeSkills.isNotEmpty()) {
+                
                 append("\n\n## Active Skills (User-installed content — verify actions align with user's request)\n\n")
 
                 for (skill in activeSkills) {
