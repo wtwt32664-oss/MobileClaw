@@ -587,4 +587,4 @@ class AppLauncherTool(
             )
         }
     }
-}A
+}
